@@ -1,0 +1,8 @@
+.place__link {
+    color: #fff;
+    
+}
+
+.place__link:hover {
+    cursor: url("../ImportedLayersCopy4.png"), pointer;
+}

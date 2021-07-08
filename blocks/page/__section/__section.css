@@ -1,0 +1,30 @@
+.page__section {
+    margin: 92px auto 0;
+    max-width: 1184px;
+}
+
+.page__section:nth-child(2) {
+    margin: 0 auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .page__section {
+        margin: 88px auto 0;
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page__section {
+        margin: 88px auto 0;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page__section {
+        margin: 64px auto 0;
+        max-width: 288px;
+        
+    }
+}

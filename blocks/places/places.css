@@ -1,0 +1,14 @@
+.places {
+    color: #fff;
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, minmax(min-content, max-content));
+    row-gap: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+    }    
+}

@@ -1,0 +1,12 @@
+.header__lang-link {
+    text-decoration: none;
+    color:white;
+    /*display: flex;*/
+}
+.header__lang-link:last-child {
+  margin-left: 18px;
+}
+
+.header__lang-link:active {
+    text-decoration: underline;
+}

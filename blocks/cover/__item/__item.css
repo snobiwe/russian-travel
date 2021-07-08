@@ -1,0 +1,72 @@
+.cover__item {
+    min-width: 1184px;
+    min-height: 740px;
+    background-image: url(../__background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    background-size: cover;
+}
+
+.cover__item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    min-width: 1184px;
+    min-height: 740px;
+    top: 0;
+    /*left: 0;
+    right: 0;*/
+    bottom: 0;
+    background-color: #2a2c2f;
+    background-size: cover;
+    opacity: 0.3;
+    
+}
+
+.cover__item:hover::before {
+    opacity: 0.8;
+    cursor: url("../ImportedLayersCopy4.png"), pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__item {
+        
+        min-width: 1024px;
+        min-height: 640px;
+    }
+
+    .cover__item::before {
+        min-width: 1024px;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__item {
+        
+        min-width: 768px;
+        min-height: 480px;
+    }
+
+    .cover__item::before {
+        min-width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__item {
+        
+        min-width: 320px;
+        min-height: 200px;
+    }
+
+    .cover__item::before {
+        min-width: 320px;
+        min-height: 200px;
+    }
+}

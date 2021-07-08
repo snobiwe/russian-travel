@@ -1,0 +1,6 @@
+@media screen and (max-width: 1024px) {
+    .photo-grid__list-item {
+        max-width: 300px;
+        max-height: 225px;
+    }
+}
