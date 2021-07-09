@@ -1,25 +1,26 @@
 .page__header {
-    margin: 28px auto 56px;
+    margin: 0 auto 56px;
+    padding-top: 28px;
 }
 
 @media screen and (max-width: 1024px) {
     .page__header {
-        margin: 28px auto 48px;
-        max-width: 928px;
+        margin: 0 auto 48px;
+        max-width: 90;
     }
 }
 
 @media screen and (max-width: 768px) {
     .page__header {
-        margin: 28px auto 48px;
+        margin: 0 auto 48px;
         max-width: 720px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .page__header {
-        margin: 28px auto 48px;
-        max-width: 268px;
+        margin: 0 auto 48px;
+        max-width: 288px;
         max-height: 42px;
     }
 }
