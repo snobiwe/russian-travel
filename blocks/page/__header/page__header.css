@@ -21,6 +21,6 @@
     .page__header {
         margin: 0 auto 48px;
         max-width: 288px;
-        max-height: 42px;
+        /*max-height: 42px;*/
     }
 }
