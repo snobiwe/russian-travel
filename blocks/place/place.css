@@ -2,8 +2,8 @@
     max-width: 984px;
     /*max-height: 660px;*/
     display: grid;
-    grid-template-columns: repeat(2, minmax(min-content, 1fr));
-    grid-template-rows: repeat(2, minmax(min-content, 1fr));
+    grid-template-columns: minmax(1fr, max-content), 1fr;
+    grid-template-rows: minmax(min-content, 340px), max-content;
     column-gap: 40px;
     grid-row-gap: 48px;
 }

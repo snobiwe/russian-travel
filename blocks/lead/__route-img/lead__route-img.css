@@ -7,20 +7,20 @@
 @media screen and (max-width: 1024px) {
     .lead__route-img {
         
-       /* max-width: 928px;*/
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__route-img {
         
-        /*max-width: 720px;*/
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__route-img {
         
-       /* max-width: 288px;*/
+        max-width: 100%;
     }
 }
