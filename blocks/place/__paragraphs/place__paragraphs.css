@@ -1,7 +1,24 @@
 .place__paragraphs {
-    max-width: 484px;
+    max-width: 100%;
     margin: 0;
     grid-row: 2;
     grid-column: 2;
-    
+    line-height: 29.34px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraphs {
+        
+        line-height: 26.08px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraphs {
+        max-width: 288px;
+        order: 4;
+        
+    }
 }

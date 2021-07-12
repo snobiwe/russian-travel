@@ -1,20 +1,19 @@
 .header {
     display: flex;
     justify-content: space-between;
-    max-width: 1184px;
-    max-height: 52px;
+    max-width: 93%;
+    
 }
 
-@media screen and (max-width: 1024px) {
-    .page__header {
+/*@media screen and (max-width: 1024px) {
+    .header {
         
         max-width: 928px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .page__header {
-        
+    .header {
         max-width: 720px;
     }
 }
@@ -23,6 +22,5 @@
     .header {
         
         max-width: 288px;
-        max-height: 42px;
     }
-}
+}*/

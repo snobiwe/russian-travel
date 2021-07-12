@@ -1,12 +1,17 @@
 .header__lang-link {
     text-decoration: none;
     color:white;
-    /*display: flex;*/
+    line-height: 28px;
+    font-size: 24px;
 }
 .header__lang-link:last-child {
   margin-left: 18px;
 }
 
-.header__lang-link:active {
-    text-decoration: underline;
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    line-height: 20px;
+    font-size: 18px;
+  }
 }
+
