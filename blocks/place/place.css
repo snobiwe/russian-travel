@@ -2,7 +2,7 @@
     max-width: 984px;
     /*max-height: 660px;*/
     display: grid;
-    grid-template-columns: minmax(1fr, max-content), 1fr;
+    grid-template-columns: minmax(1fr, max-content), minmax(min-content, max-content);
     grid-template-rows: minmax(min-content, 340px), max-content;
     column-gap: 40px;
     row-gap: 48px;
