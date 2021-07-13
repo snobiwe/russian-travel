@@ -1,6 +1,26 @@
+.photo-grid__list-item {
+    padding: 0;
+    max-height: 213px;
+    max-width: 284px;
+}
+
 @media screen and (max-width: 1024px) {
     .photo-grid__list-item {
         max-width: 300px;
         max-height: 225px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid__list-item {
+        max-width: 352px;
+        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid__list-item {
+        max-width: 288px;
+        
     }
 }

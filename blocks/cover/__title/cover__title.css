@@ -11,10 +11,18 @@
     z-index: 1;
 }
 
+@media screen and (max-width: 425px) {
+    .cover__title {
+        
+        font-size: 3em;
+        
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover__title {
         line-height: 35px;
-        font-size: 32px;
+        font-size: 2em;
         max-width: 288px;
     }
 }

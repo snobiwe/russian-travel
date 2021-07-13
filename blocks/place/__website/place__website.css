@@ -5,18 +5,12 @@
     align-self: end;
 }
 
-@media screen and (max-width:768px) {
-    .place__website {
-        
-        
-        max-width: 46%;
-    }
-}
+
 
 @media screen and (max-width:320px) {
     .place__website {
         order: 2;
-        
-        max-width: 90%;
+        margin: 0 auto;
+        min-width: 288px;
     }
 }

@@ -1,7 +1,7 @@
 .page__footer {
      
         margin: 92px auto 0;
-        max-width: 93%;
+        max-width: 1184px;
 }   
     
     
@@ -9,22 +9,24 @@
     @media screen and (max-width: 1024px) {
         .page__footer {
             margin: 88px auto 0;
-            /*max-width: 928px;*/
+            max-width: 928px;
         }
     }
     
     @media screen and (max-width: 768px) {
         .page__footer {
             
-            /*max-width: 720px;*/
+           max-width: 720px;
+            
         }
     }
+
     
     @media screen and (max-width: 320px) {
         .page__footer {
             margin-top: 64px;
             margin-left: 16px;
-           /* max-width: 288px;*/
+           max-width: 288px;
             
         }
     }

@@ -2,7 +2,7 @@
     color: #fff;
     max-width: 984px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(min-content, max-content);
     grid-template-rows: repeat(5, minmax(min-content, max-content));
     row-gap: 80px;
 }
@@ -19,11 +19,11 @@
     }    
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .places {
-        max-width: 288px;
+        max-width: 320px;
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        
     }    
 }

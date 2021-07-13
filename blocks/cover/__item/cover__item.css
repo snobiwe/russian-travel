@@ -1,5 +1,5 @@
 .cover__item {
-    min-width: 93%;
+    min-width: 1184px;
     min-height: 740px;
     background-image: url(../__item/__background.png);
     display: flex;
@@ -16,7 +16,7 @@
     content: "";
     display: block;
     position: absolute;
-    min-width: 93%;
+    min-width: 1184px;
     min-height: 740px;
     top: 0;
     /*left: 0;
@@ -33,7 +33,7 @@
     cursor: url("../ImportedLayersCopy4.png"), pointer;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .cover__item {
         
         min-width: 100%;
@@ -59,7 +59,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .cover__item {
         
         min-width: 100%;

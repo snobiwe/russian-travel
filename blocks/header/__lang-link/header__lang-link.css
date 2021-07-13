@@ -8,6 +8,10 @@
   margin-left: 18px;
 }
 
+.header__lang-link:hover{
+   cursor: url(../ImportedLayersCopy4.png), pointer;
+}
+
 @media screen and (max-width: 320px) {
   .header__lang-link {
     line-height: 20px;

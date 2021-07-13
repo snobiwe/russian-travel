@@ -1,0 +1,13 @@
+.lead__container {
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__container {
+        
+        max-width: 100%;
+        margin: 0;
+    
+    }
+}
