@@ -10,6 +10,9 @@
     .place__paragraph {
        
         max-width: 288px;
-        margin: 0 auto;
+        margin: 0 auto 25px;
+    }
+    .place__paragraph:last-child {
+        margin-bottom: 0;
     }
 }

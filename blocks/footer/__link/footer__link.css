@@ -11,6 +11,7 @@
 
 .footer__link:hover {
     cursor: url("./ImportedLayersCopy4.png"), pointer;
+    opacity: 80%;
 }
 
 @media screen and (max-width: 320px) {
