@@ -1,4 +1,6 @@
-@media screen and (max-width: 1024px) {
+
+
+@media screen and (max-width: 1200px) {
     .photo-grid__item {
         min-width: 100%;
         

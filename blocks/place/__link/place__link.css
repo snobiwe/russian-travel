@@ -6,4 +6,5 @@
 
 .place__link:hover {
     cursor: url("../ImportedLayersCopy4.png"), pointer;
+    opacity: 80%;
 }
